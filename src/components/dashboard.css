@@ -1,0 +1,184 @@
+.dashboard-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 766px;
+    height: 673px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 16px;
+    opacity: 1;
+    padding: 1rem;
+}
+
+.dashboard-title {
+    display: flex;
+    padding: 1rem 0rem 0 1rem;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-33) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 24px/33px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.graph-main-container {
+    display: flex;
+    width: 100%;
+}
+
+.graph {
+    width: 100%;
+    background: #F4F0FE 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.graph-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal bold 18px/24px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    text-transform: capitalize;
+    opacity: 1;
+
+}
+
+.graph-title p {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: right;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+
+
+.main-health-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.respiratory-rate {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 228px;
+    height: 242px;
+    background: #E0F3FA 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    padding: 1rem;
+}
+
+
+.respiratory-rate img {
+    width: 50%;
+}
+
+.h-detail {
+    display: flex;
+    flex-direction: column;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal normal 14px/19px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+}
+
+.h-detail h3 {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-800) 30px/41px var(--unnamed-font-family-manrope);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-072635);
+    text-align: left;
+    font: normal normal 800 30px/41px Manrope;
+    letter-spacing: 0px;
+    color: #072635;
+    opacity: 1;
+    padding-bottom: 1rem;
+}
+
+.temprature {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 228px;
+    height: 242px;
+    border-radius: 12px;
+    opacity: 1;
+    background: #FFE6E9 0% 0% no-repeat padding-box;
+}
+
+.temprature img {
+    width: 50%;
+}
+
+.heart-rate {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 228px;
+    height: 242px;
+    border-radius: 12px;
+    opacity: 1;
+    background: #FFE6F1 0% 0% no-repeat padding-box;
+}
+
+.heart-rate img {
+    width: 50%;
+}
+
+
+.graph-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding: 1rem;
+    gap: 1rem;
+    width: 40%;
+    background: #F4F0FE 0% 0% no-repeat padding-box;
+}
+
+.systolic {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-bottom: 1px solid rgb(0, 0, 0,0.1);
+    padding-bottom: 1rem;
+  
+}
+
+.graph-summary h3 {
+    font: normal normal bold 22px/30px Manrope;
+}
+
+.graph-summary p {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-19) var(--unnamed-font-family-manrope);
+}
+
+.diastolic {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
